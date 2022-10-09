@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const Rank = () => {
   return (
-    <div>Rank</div>
+    <div className='w-full h-[100vh] flex flex-col justify-start items-center'>
+      <Header />
+    </div>
   )
 }
 
