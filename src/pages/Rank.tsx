@@ -5,6 +5,9 @@ import Welcome from '../components/Welcome'
 import { people } from '../constants'
 
 const Rank = () => {
+
+  people.sort((a, b) => a.score - b.score).reverse()
+
   return (
     <div className='w-full h-[100vh] flex flex-col justify-start items-center'>
       <Header />
