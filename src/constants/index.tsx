@@ -82,7 +82,7 @@ export const people = [
         money: 0
     },
     {
-        name: 'Kayque',
+        name: 'Pereira',
         role: 'Especialista São Paulo',
         like: 'Jogar futebol e assistir futebol.',
         abilities: 'Observador, foco em resultados.',
