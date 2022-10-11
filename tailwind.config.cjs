@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'uefa-img': "url('/src/assets/bg_uefa.jpg')"
+        'uefa-img': "url('/src/assets/bg_uefa.jpg')",
+        'field-img': "url('/src/assets/field_uefa.jpg')"
       }
     },
     fontFamily: {
@@ -19,5 +20,8 @@ module.exports = {
       xl: '1700px'
     }
   },
-  plugins: []
+  plugins: [require('tailwind-scrollbar')({ nocompatible: true })],
+  variants: {
+    scrollbar: ['rounded']
+  }
 };
